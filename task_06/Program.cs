@@ -1,9 +1,10 @@
-﻿int a = 15;
-if (a % 2 == 0)
+﻿int n;
+n = Convert.ToInt32(Console.ReadLine());
+if (n % 2 == 0)
 {
-    Console.WriteLine("четное");
+    Console.WriteLine("yes");
 }
 else
 {
-    Console.WriteLine("не четное");
+    Console.WriteLine("no");
 }
