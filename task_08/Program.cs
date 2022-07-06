@@ -1,10 +1,11 @@
-﻿int n;
-n = Convert.ToInt32(Console.ReadLine());
-if (n % 2 == 0)
+﻿int n = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+if (i == 1)
 {
-    Console.WriteLine("yes");
+    i++;
 }
-else
+while (i <= n)
 {
-    Console.WriteLine("no");
+    Console.WriteLine(i);
+    i += 2;
 }
